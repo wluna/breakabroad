@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.5'
 
 gem 'rails', '4.1.8'
 gem 'sass-rails', '~> 4.0.3'
@@ -13,6 +13,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'paperclip', '< 5.0'
 gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.0'
+
 
 group :development, :test do
 	gem 'sqlite3'
